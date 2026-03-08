@@ -87,14 +87,14 @@ The project uses a **star schema data model** to ensure efficient analytical per
 ## Data Model
 
 Fact Table
-- Orders / Sales transactions
-
+- Orders 
 Dimension Tables
 - Products
 - Customers
 - Regions
-- Shipping Partners
-- Calendar
+- Shipping 
+- Return
+- Payment
 
 ---
 
