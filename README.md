@@ -140,4 +140,186 @@ The analysis highlights several important patterns:
 
 ---
 
-# 📂 Project Structure
+# Voltex Electronics – Business Intelligence & Profitability Analysis
+
+## Project Overview
+This project analyzes the business performance of **Voltex Electronics**, a U.S. e-commerce electronics retailer, during **Q2–Q3 2024**.
+
+The objective was to investigate the **profitability decline in Q3** by combining **business intelligence dashboard development** with **root cause analysis across revenue, costs, operations, and customer experience**.
+
+The project demonstrates an **end-to-end Data Analyst workflow**, including:
+
+- Data modeling
+- KPI development
+- Interactive dashboard design
+- Root cause analysis
+- Data-driven business recommendations
+
+---
+
+# Business Problem
+During **Q3 2024**, Voltex Electronics experienced a significant **profitability decline**, even though revenue did not drop proportionally.
+
+Key business questions:
+
+- What caused the profit decline in Q3?
+- Which cost drivers had the largest impact?
+- Which regions, product categories, or logistics partners contributed most to return costs?
+- How did operational issues affect customer experience?
+
+---
+
+# Data Model
+
+A **star schema data model** was designed for scalable analysis.
+
+### Fact Table
+- `fact_orders`
+
+### Dimension Tables
+- `dim_customer`
+- `dim_product`
+- `dim_region`
+- `dim_payment`
+- `dim_shipping`
+- `dim_return`
+
+This structure allows flexible analysis across multiple dimensions such as:
+
+- Product category
+- Region
+- Logistics partner
+- Return reason
+- Customer behavior
+
+---
+
+# Dashboard Overview
+
+An interactive **Power BI Sales Performance Dashboard** was built to monitor key business metrics.
+
+## Executive KPI Overview
+- Revenue
+- Orders
+- Profit
+- Profit Margin
+
+## Operational Performance
+- Late Delivery Rate
+- On-Time Delivery (OTD)
+- Shipping partner performance
+
+## Product & Profitability Analysis
+- Profit contribution by product category
+- Return rate analysis
+- Defective return cost breakdown
+
+## Customer Experience
+- Customer ratings
+- Feedback sentiment distribution
+- Impact of returns on satisfaction
+
+Interactive features include:
+
+- Drill-through navigation
+- Dynamic KPI parameters
+- Time comparisons (MoM, YTD)
+
+---
+
+# Analytical Methods
+
+This project applies several analytical techniques commonly used in real-world business analytics:
+
+- Profit decomposition (Revenue vs Cost drivers)
+- Pareto analysis (return cost concentration)
+- Root cause analysis across product, region, and logistics dimensions
+- Customer experience linkage analysis
+- Operational performance validation
+
+Advanced **DAX measures** were implemented for:
+
+- Month-over-Month (MoM)
+- Year-to-Date (YTD)
+- Contribution %
+- Profit Margin
+- Cohort Retention
+- Dynamic KPI comparisons
+
+---
+
+# Key Insights
+
+## Profitability Decline
+Profit dropped significantly in Q3 due to both **revenue decline and increased operational costs**.
+
+## Product Quality Impact
+**Smartphones and Laptops accounted for over 85% of defective return costs**, with return rates reaching **14% and 12%** respectively.
+
+## Logistics Partner Issue
+A partner-specific logistics failure was identified where **late delivery increased from 1.47% in Q2 to 15.82% in Q3**, generating approximately **$174K in excess return costs**.
+
+## Customer Experience Impact
+Return-related orders showed extremely low customer ratings (**~1.4–1.5 / 5**) and contributed to **16% negative customer sentiment**, indicating significant dissatisfaction linked to product defects and delivery issues.
+
+---
+
+# Business Recommendations
+
+## Short-Term Actions
+- Address logistics partner performance issues and enforce SLA compliance.
+- Implement focused quality control for high-return product categories.
+- Improve customer recovery processes for return-related cases.
+
+## Long-Term Improvements
+- Introduce partner performance scorecards and monitoring systems.
+- Integrate defect and return cost metrics into product decision-making.
+- Build an integrated monitoring system linking quality, operations, and customer experience.
+
+---
+
+# Tools & Technologies
+
+- Power BI
+- DAX
+- Data Modeling
+- KPI Development
+- Pareto Analysis
+- Business Performance Analysis
+
+---
+
+# Project Structure
+
+```
+/data
+/dataset
+
+/dashboard
+/powerbi_dashboard.pbix
+
+/analysis
+/capstone_presentation.pdf
+
+README.md
+```
+
+---
+
+# Skills Demonstrated
+
+- Data Modeling (Star Schema)
+- Business Intelligence Dashboard Development
+- Advanced DAX
+- Root Cause Analysis
+- Business Performance Analysis
+- Data-Driven Decision Making
+
+---
+
+# Acknowledgement
+
+This project was completed as part of a **Data Analyst Capstone Project** guided by **Maz and Lucas from The Future Analyst**.
+
+---
+
