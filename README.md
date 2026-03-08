@@ -5,6 +5,7 @@ This project analyzes the business performance of **Voltex Electronics**, a U.S.
 
 The dataset simulates operational data from **Q2–Q3 2024**, covering sales transactions, products, logistics, and customer feedback.  
 The dashboard enables stakeholders to monitor business health, identify operational issues, evaluate product performance, and understand customer behavior to support **data-driven decision making**.
+
 ---
 
 # Business Objectives
@@ -140,186 +141,63 @@ The analysis highlights several important patterns:
 
 ---
 
-# Voltex Electronics – Business Intelligence & Profitability Analysis
+# Capstone Business Analysis
 
-## Project Overview
-This project analyzes the business performance of **Voltex Electronics**, a U.S. e-commerce electronics retailer, during **Q2–Q3 2024**.
+In addition to dashboard development, a **consultant-style analytical investigation** was conducted to diagnose a **profitability decline observed in Q3 2024**.
 
-The objective was to investigate the **profitability decline in Q3** by combining **business intelligence dashboard development** with **root cause analysis across revenue, costs, operations, and customer experience**.
+The analysis was presented through a structured slide deck and followed a business diagnostic approach including:
 
-The project demonstrates an **end-to-end Data Analyst workflow**, including:
+- Performance comparison between **Q2 and Q3**
+- **Profit decomposition** to isolate revenue and cost drivers
+- **Return cost Pareto analysis by region**
+- Deep dive into **product category performance**
+- **Shipping partner delivery reliability validation**
+- **Customer experience impact analysis**
 
-- Data modeling
-- KPI development
-- Interactive dashboard design
-- Root cause analysis
-- Data-driven business recommendations
-
----
-
-# Business Problem
-During **Q3 2024**, Voltex Electronics experienced a significant **profitability decline**, even though revenue did not drop proportionally.
-
-Key business questions:
-
-- What caused the profit decline in Q3?
-- Which cost drivers had the largest impact?
-- Which regions, product categories, or logistics partners contributed most to return costs?
-- How did operational issues affect customer experience?
+This investigation aimed to identify **root causes behind margin erosion** and translate insights into actionable business recommendations.
 
 ---
 
-# Data Model
+# Key Findings from the Investigation
 
-A **star schema data model** was designed for scalable analysis.
+The deeper analysis revealed several critical operational drivers behind the profitability decline:
 
-### Fact Table
-- `fact_orders`
-
-### Dimension Tables
-- `dim_customer`
-- `dim_product`
-- `dim_region`
-- `dim_payment`
-- `dim_shipping`
-- `dim_return`
-
-This structure allows flexible analysis across multiple dimensions such as:
-
-- Product category
-- Region
-- Logistics partner
-- Return reason
-- Customer behavior
-
----
-
-# Dashboard Overview
-
-An interactive **Power BI Sales Performance Dashboard** was built to monitor key business metrics.
-
-## Executive KPI Overview
-- Revenue
-- Orders
-- Profit
-- Profit Margin
-
-## Operational Performance
-- Late Delivery Rate
-- On-Time Delivery (OTD)
-- Shipping partner performance
-
-## Product & Profitability Analysis
-- Profit contribution by product category
-- Return rate analysis
-- Defective return cost breakdown
-
-## Customer Experience
-- Customer ratings
-- Feedback sentiment distribution
-- Impact of returns on satisfaction
-
-Interactive features include:
-
-- Drill-through navigation
-- Dynamic KPI parameters
-- Time comparisons (MoM, YTD)
-
----
-
-# Analytical Methods
-
-This project applies several analytical techniques commonly used in real-world business analytics:
-
-- Profit decomposition (Revenue vs Cost drivers)
-- Pareto analysis (return cost concentration)
-- Root cause analysis across product, region, and logistics dimensions
-- Customer experience linkage analysis
-- Operational performance validation
-
-Advanced **DAX measures** were implemented for:
-
-- Month-over-Month (MoM)
-- Year-to-Date (YTD)
-- Contribution %
-- Profit Margin
-- Cohort Retention
-- Dynamic KPI comparisons
-
----
-
-# Key Insights
-
-## Profitability Decline
-Profit dropped significantly in Q3 due to both **revenue decline and increased operational costs**.
-
-## Product Quality Impact
-**Smartphones and Laptops accounted for over 85% of defective return costs**, with return rates reaching **14% and 12%** respectively.
-
-## Logistics Partner Issue
-A partner-specific logistics failure was identified where **late delivery increased from 1.47% in Q2 to 15.82% in Q3**, generating approximately **$174K in excess return costs**.
-
-## Customer Experience Impact
-Return-related orders showed extremely low customer ratings (**~1.4–1.5 / 5**) and contributed to **16% negative customer sentiment**, indicating significant dissatisfaction linked to product defects and delivery issues.
+- **Smartphones and Laptops accounted for over 85% of defective return costs**, with return rates of approximately **14% and 12%** respectively.
+- A logistics partner performance breakdown caused **late delivery rates to increase from 1.47% in Q2 to 15.82% in Q3**, generating approximately **$174K in excess return costs**.
+- Return-related transactions were strongly associated with **extremely low customer ratings (~1.4–1.5 / 5)** and higher negative sentiment.
+- The findings revealed a systemic **Quality → Returns → Customer Experience** impact chain affecting overall business performance.
 
 ---
 
 # Business Recommendations
 
+Based on the analytical findings, the following actions were recommended:
+
 ## Short-Term Actions
-- Address logistics partner performance issues and enforce SLA compliance.
-- Implement focused quality control for high-return product categories.
+- Address shipping partner performance issues and enforce delivery SLA compliance.
+- Implement targeted quality control for high-return product categories.
 - Improve customer recovery processes for return-related cases.
 
 ## Long-Term Improvements
-- Introduce partner performance scorecards and monitoring systems.
-- Integrate defect and return cost metrics into product decision-making.
-- Build an integrated monitoring system linking quality, operations, and customer experience.
+- Introduce partner performance monitoring frameworks.
+- Integrate return and defect metrics into product decision processes.
+- Develop a unified monitoring system linking product quality, logistics performance, and customer experience.
 
 ---
 
-# Tools & Technologies
+# Project Skills Demonstrated
 
-- Power BI
-- DAX
-- Data Modeling
-- KPI Development
-- Pareto Analysis
-- Business Performance Analysis
+This project demonstrates practical Data Analyst capabilities including:
 
----
-
-# Project Structure
-
-```
-/data
-/dataset
-
-/dashboard
-/powerbi_dashboard.pbix
-
-/analysis
-/capstone_presentation.pdf
-
-README.md
-```
-
----
-
-# Skills Demonstrated
-
-- Data Modeling (Star Schema)
 - Business Intelligence Dashboard Development
-- Advanced DAX
+- Data Modeling with Star Schema
+- Advanced DAX KPI Modeling
 - Root Cause Analysis
-- Business Performance Analysis
-- Data-Driven Decision Making
+- Operational Performance Diagnostics
+- Data-Driven Business Recommendations
 
 ---
 
 # Acknowledgement
 
 This project was completed as part of a **Data Analyst Capstone Project** guided by **Maz and Lucas from The Future Analyst**.
-
----
-
