@@ -201,4 +201,5 @@ This project demonstrates practical Data Analyst capabilities including:
 
 # Acknowledgement
 
-This project was completed as part of a **Data Analyst Capstone Project** guided by **Maz and Lucas from The Future Analyst**.
+This project was completed as part of a **Data Analyst Capstone Project** guided by **Maz (Hieu Nguyen) and Lucas - Senior Data Analyst from The Future Analyst**.
+
