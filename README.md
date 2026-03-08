@@ -1,4 +1,4 @@
-# 📊 Sales Performance Dashboard – Voltex Electronics
+# Sales Performance Dashboard – Voltex Electronics
 
 ## Overview
 This project analyzes the business performance of **Voltex Electronics**, a U.S.-based e-commerce electronics retailer, using an interactive **Power BI Business Intelligence dashboard**.
@@ -10,33 +10,33 @@ This project is part of a **Data Analyst portfolio** and is accompanied by a **p
 
 ---
 
-# 🎯 Business Objectives
+# Business Objectives
 
 The analysis focuses on four key business questions:
 
-### 1️⃣ Business Health Monitoring
+### 1️ Business Health Monitoring
 - Are **revenue, profit, and orders increasing or declining over time**?
 - What are the **Month-over-Month (MoM)** trends for key business KPIs?
 - Are **return rates or operational KPIs exceeding warning thresholds**?
 
-### 2️⃣ Operational Performance
+### 2️ Operational Performance
 - Which **regions or shipping partners** affect delivery performance?
 - What factors impact **On-Time Delivery (OTD)** and return rates?
 - Are there operational inefficiencies affecting fulfillment performance?
 
-### 3️⃣ Product Portfolio Performance
+### 3️ Product Portfolio Performance
 - Which **SKUs generate the highest revenue and profit**?
 - Which products show **high return risk or margin erosion**?
 - How does revenue contribution vary across **product categories and value tiers**?
 
-### 4️⃣ Customer Behavior & Retention
+### 4 Customer Behavior & Retention
 - What is the **repeat purchase rate**?
 - How does purchasing behavior vary across **customer segments**?
 - How does **customer retention change over time** using cohort analysis?
 
 ---
 
-# 📈 Dashboard Structure
+# Dashboard Structure
 
 The dashboard consists of **four analytical pages**, each designed for different stakeholders.
 
@@ -81,7 +81,7 @@ Customer behavior and retention analytics including:
 
 ---
 
-# ⚙️ Technical Implementation
+# Technical Implementation
 
 The project uses a **star schema data model** to ensure efficient analytical performance.
 
@@ -122,7 +122,7 @@ Dimension Tables
 
 ---
 
-# 📊 Key Insights
+# Key Insights
 
 The analysis highlights several important patterns:
 
@@ -133,7 +133,7 @@ The analysis highlights several important patterns:
 
 ---
 
-# 🛠 Tools & Technologies
+# Tools & Technologies
 
 - Power BI
 - DAX
