@@ -5,9 +5,6 @@ This project analyzes the business performance of **Voltex Electronics**, a U.S.
 
 The dataset simulates operational data from **Q2–Q3 2024**, covering sales transactions, products, logistics, and customer feedback.  
 The dashboard enables stakeholders to monitor business health, identify operational issues, evaluate product performance, and understand customer behavior to support **data-driven decision making**.
-
-This project is part of a **Data Analyst portfolio** and is accompanied by a **presentation deck explaining the key insights and recommendations derived from the analysis**.
-
 ---
 
 # Business Objectives
